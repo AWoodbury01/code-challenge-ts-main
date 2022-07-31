@@ -57,6 +57,7 @@ You earned 4 frequent renter points
 
 ## Notes
 Time spent on assignment: ~6 hours
+
 Added configuration file in /src. The values that are customizable are as follows:
 - Movie categories
 - Rental fee amounts
