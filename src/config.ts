@@ -8,12 +8,12 @@ const config = {
     },
     values:
     {
-        amountOfTime: 
+        rentalFee: 
         {
-            category1Amount: 1.5,
-            category2Amount: 2,
-            category3Amount: 3,
-            category4Amount: 2
+            category1Fee: 1.5,
+            category2Fee: 2,
+            category3Fee: 3,
+            category4Fee: 2
         },
         numberOfDays:
         {

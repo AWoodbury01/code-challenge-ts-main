@@ -29,22 +29,22 @@ export const statement = (customer: any, movies: any): string => {
     if (movie.code === "new") {
       thisAmount = r.days * 3;
     } else if (movie.code === config.categories.category1) {
-        thisAmount = config.values.amountOfTime.category1Amount;
+        thisAmount = config.values.rentalFee.category1Fee;
         if (r.days > config.values.numberOfDays.category1Days) {
           thisAmount += (r.days - config.values.numberOfDays.category1Days) * 1.5;
         }
     } else if (movie.code === config.categories.category2) {
-        thisAmount = config.values.amountOfTime.category2Amount;
+        thisAmount = config.values.rentalFee.category2Fee;
         if (r.days > config.values.numberOfDays.category2Days) {
           thisAmount += (r.days - config.values.numberOfDays.category2Days) * 1.5;
         }
     } else if (movie.code === config.categories.category3) {
-        thisAmount = config.values.amountOfTime.category3Amount;
+        thisAmount = config.values.rentalFee.category3Fee;
         if (r.days > config.values.numberOfDays.category3Days) {
           thisAmount += (r.days - config.values.numberOfDays.category3Days) * 1.5;
         }
     } else if (movie.code === config.categories.category4) {
-        thisAmount = config.values.amountOfTime.category4Amount;
+        thisAmount = config.values.rentalFee.category4Fee;
         if (r.days > config.values.numberOfDays.category4Days) {
           thisAmount += (r.days - config.values.numberOfDays.category4Days) * 1.5;
         }
