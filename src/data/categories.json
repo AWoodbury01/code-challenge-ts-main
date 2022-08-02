@@ -1,0 +1,9 @@
+{
+   "categoryDescriptions":
+   [
+        { "category": "childrens", "description": "children's movies" },
+        { "category": "regular", "description": "regular movies" },
+        { "category": "new", "description": "recently released movies" },
+        { "category": "sciFi", "description": "space/future themed movies" }  
+    ]
+}

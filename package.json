@@ -20,6 +20,7 @@
     "build": "tsc -p .",
     "statement": "ts-node src/index.ts statement",
     "html-statement": "ts-node src/index.ts html-statement",
+    "movie-categories": "ts-node src/index.ts movie-categories",
     "statement:watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts statement",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
