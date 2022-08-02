@@ -14,7 +14,7 @@ const version: string = require("../package.json").version;
 
 const customer: Customer = require("./data/customer.json");
 const movies: MovieCollection = require("./data/movies.json");
-const categories = require("./data/categories.json")
+const categories: any = require("./data/categories.json")
 
 program
   .version(version)
@@ -33,7 +33,6 @@ program
   program
   .command("movie-categories")
   .description("Allows the company to edit movie categories")
-  .argument("[movieID]")
   .action(() => console.log(movieCategories(categories)))
 
 program.parse(process.argv);

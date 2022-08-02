@@ -1,11 +1,9 @@
-import categories from "../data/categories.json"
-
-export const movieCategories = (categories: any) => {
+export const movieCategories = (categories: any): string => {
     let currentCategories;
-    let result = `Movie Categories:\n`
+    let result = `Movie Categories:\n\n`
 
-    for (let m of categories.categoryDescriptions) {
-        result += `\t${categories}`
+    for (let m of categories.movieCategories) {
+        result += `\t${m.category}\t${m.description}\n\n`;
 
     }
 
