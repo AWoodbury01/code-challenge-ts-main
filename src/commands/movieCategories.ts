@@ -4,7 +4,6 @@ export const movieCategories = (categories: any): string => {
 
     for (let m of categories.movieCategories) {
         result += `\t${m.category}\t${m.description}\n\n`;
-
     }
 
     return result
